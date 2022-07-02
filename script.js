@@ -76,9 +76,9 @@ const slider = function () {
     }
   });
 
-  // setInterval(function () {
-  //   nextSlide();
-  // }, 5000);
+  setInterval(function () {
+    nextSlide();
+  }, 5000);
 
   setTimeout(() => {
     slides.forEach(s => s.classList.add('slider-animation'));
