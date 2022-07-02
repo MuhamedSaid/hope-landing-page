@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" type="image/png" href="img/Hope-logo-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Hope</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="content-container">
+        <a href="#">
+          <img class="logo" alt="logo" src="img/Hope-logo.png" />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#about">About Us</a></li>
+            <li><a class="main-nav-link" href="#who-we-are">Who We Are</a></li>
+            <li>
+              <a class="main-nav-link" href="#section-contact">Contact Us</a>
+            </li>
+            <li>
+              <a class="main-nav-link nav-cta" href="#section-contact"
+                >Our Products</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-hero slider">
+        <div class="hero content-container">
+          <h1 class="heading-primary">
+            Our Whole Message Is That We Are <br />
+            More Powerful Together
+          </h1>
+          <div class="hero-btns-container">
+            <a href="#section-contact" class="btn btn--full">CONTACT US</a>
+            <a href="#about" class="btn btn--outline">ABOUT US</a>
+          </div>
+        </div>
+        <div class="slide slide0" data-num="0"></div>
+        <div class="slide slide1" data-num="1"></div>
+        <div class="slide slide2" data-num="2"></div>
+        <button class="slider__btn slider__btn--left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="btn-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 19l-7-7 7-7"
+            ></path>
+          </svg>
+        </button>
+        <button class="slider__btn slider__btn--right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="btn-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            ></path>
+          </svg>
+        </button>
+        <div class="dots"></div>
+      </section>
+
+      <section class="section-wt-is-hope" id="about">
+        <div class="content-container">
+          <div class="grid-pattern--1">
+            <div class="left">
+              <img src="img/dog-msg.jpg" alt="" />
+            </div>
+            <div class="right">
+              <h2>What is HOPE?</h2>
+              <div>
+                <div>
+                  <p>
+                    A circular economy project based on recycling our everyday
+                    wastes to produce dry food, wet food and animal feed by
+                    providing job opportunities to the poor families and teach
+                    them how to work on that project and marketing them among
+                    the shelters and pets shops.
+                  </p>
+
+                  <p>
+                    We decided that the people who will work on this project are
+                    the poor families, we will teach them the process at the
+                    factory production lines and we will market the product for
+                    them among the shelters and the pet shops and all the fund
+                    will go for them, and as a result of that they will produce
+                    our product having lower price than the market by 60% we
+                    will contribute in helping the shelters and the animal
+                    savers to save more stray dogs and increase animal savings
+                    and protection and all of that by the corporation of our
+                    success partners which are all of the shelters, factories,
+                    restaurants, hotels and animal saver and their names will be
+                    recorded in the first environmental map in Egypt the CSR
+                    which is the corporate social responsibilities and by that
+                    we'll be standing side by side to all society segments to
+                    save more innocent lives and that's why we call it
+                    <span>HOPE!</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="content-container grid-pattern--2">
+          <div class="left">
+            <h2>
+              Our trusted team <span class="break-line" />
+              of experts
+            </h2>
+            <div class="features-container">
+              <div class="feature">
+                <div class="icon-container">
+                  <!-- <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 1024 1024"
+                    fill="#95191B"
+                    class="icon-25"
+                  >
+                    <path
+                      d="M1021.02 731.408L938.734 580.11c-.128-.208-.096-.4-.224-.593l-5.872-10.143c-3.28-5.617-8.432-9.233-14.192-10.593-5.696-1.408-11.985-.544-17.408 2.975l-9.84 6.336c-.193.113-.305.288-.497.416l-145.6 98.32c-10.88 7.008-14.416 21.68-7.936 32.913l6.544 7.2c6.48 11.184 21.265 11.647 32.161 4.64l87.04-59.184c-20.608 166-154.736 293.392-318.96 308.176v-641.6h128.048c17.664 0 32-14.336 32-32s-14.336-32-32-32h-129.44c-.24-.832-.448-1.664-.768-2.464 57.103-13.28 99.695-64.368 99.695-125.536 0-71.248-57.744-129.008-129.008-129.008-71.248 0-128.992 57.744-128.992 129.008 0 60.817 42.112 111.664 98.736 125.28-.336.88-.576 1.808-.848 2.72H351.997c-17.665 0-32 14.336-32 32s14.335 32 32 32H479.98v641.584c-164.176-14.784-298.16-142.128-318.816-308.112l86.944 59.12c10.88 7.008 25.664 6.544 32.144-4.64l6.56-7.2c6.48-11.216 2.944-25.903-7.951-32.911l-145.6-98.32c-.193-.144-.305-.32-.48-.415l-9.857-6.336a22.16 22.16 0 0 0-17.408-2.976c-5.744 1.36-10.912 4.992-14.193 10.592l-5.872 10.16c-.112.193-.096.385-.209.593L2.971 731.408c-6.496 11.168-2.945 25.872 7.952 32.896l9.12 3.424c10.88 6.992 24.256.64 30.752-10.543l47.904-88.975c29.376 204.72 205.104 357.823 413.28 357.823 208.063 0 383.92-153.088 413.36-357.712l47.84 88.864c6.496 11.184 19.888 17.535 30.768 10.543l9.12-3.424c10.896-7.024 14.448-21.728 7.952-32.896zM447.506 126.975c0-35.84 29.153-65.01 64.993-65.01 35.84 0 65.008 29.153 65.008 65.009s-29.152 65.009-65.009 65.009c-35.824-.016-64.992-29.168-64.992-65.008z"
+                    />
+                  </svg> -->
+                  <ion-icon class="icon-30" name="eye-outline"></ion-icon>
+                </div>
+                <div>
+                  <h3>Our vision</h3>
+                  <p>
+                    Creating a better world having more sympathy for stray dogs
+                    and homeless animals to save more pure lives.
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon-container">
+                  <!-- <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    aria-labelledby="verifiedIconTitle"
+                    stroke="#95191B"
+                    stroke-width="1"
+                    stroke-linecap="square"
+                    stroke-linejoin="miter"
+                    fill="none"
+                    class="icon-30"
+                  >
+                    <title id="verifiedIconTitle">Verified</title>
+                    <path d="M8 12.5L10.5 15L16 9.5" />
+                    <path
+                      d="M12 22C13.2363 22 14.2979 21.2522 14.7572 20.1843C14.9195 19.8068 15.4558 19.5847 15.8375 19.7368C16.9175 20.1672 18.1969 19.9453 19.0711 19.0711C19.9452 18.1969 20.1671 16.9175 19.7368 15.8376C19.5847 15.4558 19.8068 14.9195 20.1843 14.7572C21.2522 14.2979 22 13.2363 22 12C22 10.7637 21.2522 9.70214 20.1843 9.24282C19.8068 9.08046 19.5847 8.54419 19.7368 8.16246C20.1672 7.08254 19.9453 5.80311 19.0711 4.92894C18.1969 4.05477 16.9175 3.83286 15.8376 4.26321C15.4558 4.41534 14.9195 4.1932 14.7572 3.8157C14.2979 2.74778 13.2363 2 12 2C10.7637 2 9.70214 2.74777 9.24282 3.81569C9.08046 4.19318 8.54419 4.41531 8.16246 4.26319C7.08254 3.83284 5.80311 4.05474 4.92894 4.92891C4.05477 5.80308 3.83286 7.08251 4.26321 8.16243C4.41534 8.54417 4.1932 9.08046 3.8157 9.24282C2.74778 9.70213 2 10.7637 2 12C2 13.2363 2.74777 14.2979 3.81569 14.7572C4.19318 14.9195 4.41531 15.4558 4.26319 15.8375C3.83284 16.9175 4.05474 18.1969 4.92891 19.0711C5.80308 19.9452 7.08251 20.1671 8.16243 19.7368C8.54416 19.5847 9.08046 19.8068 9.24282 20.1843C9.70213 21.2522 10.7637 22 12 22Z"
+                    />
+                  </svg> -->
+                  <ion-icon
+                    class="icon-30"
+                    name="checkmark-circle-outline"
+                  ></ion-icon>
+                </div>
+                <div>
+                  <h3>Approved</h3>
+                  <p>
+                    On our formulas for the wet and dry food we produce, from
+                    the food safety authority as it is identical to the Egyptian
+                    official standards.
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon-container">
+                  <!-- <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1"
+                    id="Capa_1"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 471.701 471.701"
+                    style="enable-background: new 0 0 471.701 471.701"
+                    xml:space="preserve"
+                    class="icon-25"
+                  >
+                    <g fill="#95191B">
+                      <path
+                        d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1   c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"
+                      />
+                    </g>
+                  </svg> -->
+                  <ion-icon class="icon-30" name="heart-outline"></ion-icon>
+                </div>
+                <div>
+                  <h3>Creative</h3>
+                  <p>
+                    Our project based on hotels, restaurants and factories
+                    wastes instead of burning or throwing it we recycled them to
+                    produce dry food, wet food and animal feed.
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature">
+                <div class="icon-container">
+                  <svg
+                    data-name="Layer 1"
+                    id="Layer_1"
+                    viewBox="0 0 64 64"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon-25"
+                  >
+                    <g>
+                      <path
+                        class="cls-1"
+                        d="M49,40.49a3.08,3.08,0,0,0-3.67-.42l-1-4.06,0-.09,0-.08a1,1,0,0,0-.2-.29h0l-1.41-1.41a3,3,0,0,0-4.25,0h0l-.71-.72L51,20.05a1,1,0,0,1,.9-.27,9.86,9.86,0,0,0,4.61-.11,10.11,10.11,0,0,0,7.13-7.13,9.82,9.82,0,0,0,.27-3.65h0a2,2,0,0,0-3.42-1.17l-2.78,2.84a1,1,0,0,1-1.42,0L53.49,7.73A1,1,0,0,1,53.2,7a1,1,0,0,1,.3-.72l2.79-2.84a2,2,0,0,0,.47-2.08A2,2,0,0,0,55.11.06,10,10,0,0,0,44.33,7.47a9.81,9.81,0,0,0-.11,4.6A1,1,0,0,1,44,13L30.59,26.34,14.23,10l-.52-2.64a3,3,0,0,0-.82-1.54L7.66.59a2,2,0,0,0-2.83,0L.59,4.83a2,2,0,0,0,0,2.83l5.22,5.23a3,3,0,0,0,1.54.82l2.64.52L26.34,30.59,13,44a1,1,0,0,1-.9.27,9.86,9.86,0,0,0-4.61.11A10.11,10.11,0,0,0,.33,51.46a9.82,9.82,0,0,0-.27,3.65,2,2,0,0,0,1.33,1.65,2,2,0,0,0,2.09-.48l2.78-2.84a1,1,0,0,1,1.42,0l2.83,2.83a1,1,0,0,1,.29.7,1,1,0,0,1-.3.72L7.71,60.53a2,2,0,0,0,1.18,3.41A10.32,10.32,0,0,0,10,64a10,10,0,0,0,9.67-7.47,9.81,9.81,0,0,0,.11-4.6A1,1,0,0,1,20,51L33.41,37.66l.72.71h0a3,3,0,0,0,0,4.25L35.54,44h0a1,1,0,0,0,.29.2l.08,0,.09,0,4.05,1A3,3,0,0,0,40.49,49L54.64,63.12a3,3,0,0,0,4.24,0l4.24-4.24a3,3,0,0,0,0-4.24ZM45.37,14.38a3,3,0,0,0,.81-2.73A7.9,7.9,0,0,1,46.26,8,8.07,8.07,0,0,1,52,2.27a7.57,7.57,0,0,1,2.91-.21L52.08,4.9a3,3,0,0,0,0,4.25L54.91,12a3,3,0,0,0,4.25,0L62,9.11h0A7.83,7.83,0,0,1,61.73,12a8.08,8.08,0,0,1-5.7,5.7,7.77,7.77,0,0,1-3.68.08,3,3,0,0,0-2.74.81L36.24,32,32,27.76ZM18.63,49.62a3,3,0,0,0-.81,2.73A7.9,7.9,0,0,1,17.74,56a8.07,8.07,0,0,1-5.7,5.7,7.57,7.57,0,0,1-2.91.21l2.79-2.85a3,3,0,0,0,0-4.24L9.09,52a3,3,0,0,0-4.25,0L2.05,54.88A7.83,7.83,0,0,1,2.27,52,8.08,8.08,0,0,1,8,46.26a7.9,7.9,0,0,1,3.68-.08,3,3,0,0,0,2.74-.81L27.76,32,32,36.24ZM40.49,35.25a1,1,0,0,1,.71.29l.71.71-5.66,5.66-.71-.71a1,1,0,0,1,0-1.41l4.25-4.25A1,1,0,0,1,40.49,35.25ZM6.24,2,8,3.77,3.77,8,2,6.24Zm1,9.47L4.47,8.72,8.72,4.47l2.75,2.76a1,1,0,0,1,.28.51l.48,2.42-2.07,2.07-2.42-.48A1,1,0,0,1,7.23,11.47Zm4.67,1.84,1.41-1.41L37,35.54,35.54,37Zm30.88,24.9.85,3.39-2,2-3.39-.85ZM61.71,57.46h0l-4.25,4.25a1,1,0,0,1-1.41,0L41.91,47.56a1,1,0,0,1-.29-.7,1,1,0,0,1,.29-.71l4.24-4.24a1,1,0,0,1,.71-.29,1,1,0,0,1,.7.29L61.71,56.05a1,1,0,0,1,.29.71A1,1,0,0,1,61.71,57.46Z"
+                      />
+                      <path
+                        class="cls-1"
+                        d="M44.38,46.5a.5.5,0,0,0-.7,0,.5.5,0,0,0,0,.71L56.4,59.94a.51.51,0,0,0,.36.15.49.49,0,0,0,.35-.15.5.5,0,0,0,0-.71Z"
+                      />
+                      <path
+                        class="cls-1"
+                        d="M45.8,45.09a.5.5,0,0,0-.71.71L57.82,58.52a.49.49,0,0,0,.35.15.47.47,0,0,0,.35-.15.48.48,0,0,0,0-.7Z"
+                      />
+                      <path
+                        class="cls-1"
+                        d="M47.21,43.68a.5.5,0,0,0-.71,0,.5.5,0,0,0,0,.7L59.23,57.11a.51.51,0,0,0,.36.15.5.5,0,0,0,.35-.15.51.51,0,0,0,0-.71Z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <h3>Supporting</h3>
+                  <p>
+                    Supporting and teaching the poor families how to produce the
+                    product at factory production lines at a lower price helping
+                    the shelters and saving more stray dogs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right">
+            <img src="img/photo.jpg" alt="hope team" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-who-we-are section-who-we-are-1" id="who-we-are">
+        <div class="content-container">
+          <div class="background"></div>
+          <h2 class="span-row">Who We Are?</h2>
+          <div class="section-who-grid">
+            <img src="img/enactus-logo.png" class="span-2" alt="Enactus Logo" />
+
+            <div class="content content--right span-5">
+              <p>
+                <span> Enactus</span> is a non-profit organization that shares
+                the propose of enabling process through Entrepreneur actions.
+              </p>
+              <p>
+                Enactus is the world’s most influential learning platform
+                dedicated to create a better world while developing the next
+                generation of entrepreneurial leaders and social innovators.
+              </p>
+            </div>
+
+            <img
+              src="img/enactus-nc.png"
+              class="span-2"
+              alt="Enactus NC logo"
+            />
+            <div class="content content--right span-5">
+              <p>
+                We <span>Enactus NC</span> found our way to become from the top
+                10 universities in Egypt for 2 years in a row. The last year we
+                won 3 trophies for our projects in the national competition. We
+                also organised the 'TOT' training this year delivered to 2000+
+                students by the UNICEF in only two weeks
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-experienced">
+        <div class="content-container">
+          <div class="section-header">
+            <h2>Meet Our Experienced Team</h2>
+          </div>
+
+          <div class="experienced-container">
+            <div class="experienced-card">
+              <div class="team-img-box">
+                <img src="img/samir.png" alt="MOHAMED SAMIR - Co-Founder" />
+              </div>
+              <h3 class="team-name">MOHAMED SAMIR</h3>
+              <p class="team-job">Co-Founder</p>
+            </div>
+
+            <div class="experienced-card">
+              <div class="team-img-box">
+                <img src="img/anas.png" alt="Hendry Doe" />
+              </div>
+              <h3 class="team-name">ANAS KHALED</h3>
+              <p class="team-job">Co-Founder</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured-in">
+        <div class="section-header">
+          <h2>Our Trusted Clients & Partners</h2>
+        </div>
+
+        <div class="content-container featured-in-container">
+          <div class="featured-in-logo">
+            <img src="img/featured-in/dog.png" alt="" />
+          </div>
+          <div class="featured-in-logo">
+            <img src="img/featured-in/rita.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="section-contact" class="section-contact">
+        <div class="content-container contact-container">
+          <div class="left">
+            <h2>
+              Join HOPE’s <span class="break-line"></span>
+              News Letter Now
+            </h2>
+
+            <form class="cta-form" action="#">
+              <div class="input-name">
+                <input
+                  id="your-name"
+                  type="text"
+                  placeholder="YOUR NAME"
+                  required
+                />
+              </div>
+
+              <div class="input-email">
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="EMAIL ADDRESS"
+                  required
+                />
+              </div>
+              <button class="btn join-btn">JOIN</button>
+            </form>
+          </div>
+          <div class="right">
+            <h2>Our Contact Details</h2>
+            <div class="contact-info">
+              <div class="call-us">
+                <span>Call Us</span>
+                <div class="call-us-info">
+                  <p>Mohamed Tarek (PR lead)</p>
+                  <p>+20 109 645 8838</p>
+                </div>
+              </div>
+
+              <div class="email-address">
+                <span>Email Address</span>
+                <div class="email-address-info">
+                  <p>hello@enactusnewcairo.org</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="content-container footer-container grid grid--2-cols">
+        <div class="copyright">
+          <p>powered by Enactus NC.</p>
+        </div>
+
+        <div class="footer-nav-list">
+          <nav>
+            <ul>
+              <li>
+                <a class="footer-nav-link" href="#">Home</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="#about">About Us</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="#who-we-are">Who We Are</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="#section-contact">Products</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
