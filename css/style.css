@@ -28,7 +28,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: #333;
   transition: all 0.3s ease-in-out;
@@ -37,6 +37,15 @@
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #95191b;
+}
+
+.main-nav-link.donate-nav {
+  color: #95191b;
+}
+
+.main-nav-link.donate-nav:hover,
+.main-nav-link.donate-nav:active {
+  color: #861718;
 }
 
 .main-nav-link.nav-cta:link,

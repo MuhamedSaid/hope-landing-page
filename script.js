@@ -104,7 +104,6 @@ const allLinks = document.querySelectorAll('a:link');
 
 allLinks.forEach(function (link) {
   link.addEventListener('click', function (e) {
-    e.preventDefault();
     const href = link.getAttribute('href');
 
     // Scroll back to top
@@ -134,7 +133,7 @@ const sectionHeroEl = document.querySelector('.section-hero');
 const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
-    console.log(ent);
+    // console.log(ent);
 
     if (!ent.isIntersecting) {
       document.body.classList.add('sticky');
