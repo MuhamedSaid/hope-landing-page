@@ -17,6 +17,11 @@
 
 /* ***********  NAVIGATION *********** */
 
+.main-nav {
+  display: flex;
+  gap: 3.6rem;
+}
+
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -41,28 +46,38 @@
 
 .main-nav-link.donate-nav {
   color: #95191b;
+  padding: 0.9rem 1.6rem;
+  letter-spacing: 1px;
+  border: 0.3rem solid transparent;
+  border-radius: 9px;
 }
 
 .main-nav-link.donate-nav:hover,
 .main-nav-link.donate-nav:active {
-  color: #861718;
+  color: #771416;
+  border: 0.3rem solid #95191b;
 }
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.6rem;
+  padding: 1.2rem 2.4rem;
   background-color: #95191b;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 0.4px;
+  font-weight: 500;
+  letter-spacing: 1px;
   color: #fff;
-  border-radius: 100px;
+  border-radius: 9px;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #861718;
+  background-color: #771416;
+}
+
+.main-nav-list.second-nav-list {
+  /* margin-left: 2.4rem; */
+  gap: 1.6rem;
 }
 
 /* MOBILE ICON */
@@ -509,14 +524,14 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .experienced-card:hover {
   transform: translateY(-1rem);
   box-shadow: 0 3.2rem 3.2rem rgba(0, 0, 0, 0.06);
-  background: linear-gradient(#fdf1f1 50%, #861718 50%);
+  background: linear-gradient(#fdf1f1 50%, #771416 50%);
 }
 
 .experienced-card:hover .team-name,
@@ -566,14 +581,13 @@
 .featured-in-logo {
   height: 15rem;
   padding: 0.8rem 0;
-  border: 4px solid #f2f2f2;
+  border: 0.4rem solid #f2f2f2;
   display: flex;
   justify-content: center;
 }
 
 .featured-in-logo img {
   height: 100%;
-  /* border: 4px solid #f2f2f2; */
 }
 
 /* *********** SECTION -- CTA *********** */
@@ -616,7 +630,7 @@
   font-size: 1.2rem;
   font-family: inherit;
   background-color: #fdf1f1;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
 
 .btn.join-btn {
@@ -626,7 +640,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0;
   background-color: #95191b;
   color: #fff;
   font-size: 1.2rem;
@@ -700,11 +713,16 @@
 }
 
 .footer-container {
-  padding: 2.4rem;
+  padding: 2.4rem 0;
 }
 
 .footer-container .copyright p {
   color: #fff;
+}
+
+.footer-nav-list {
+  display: flex;
+  align-items: center;
 }
 
 .footer-nav-list nav ul {

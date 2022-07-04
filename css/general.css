@@ -44,7 +44,7 @@ p {
   font-size: 1.2rem;
   font-weight: 600;
   padding: 1.2rem 2.4rem;
-  border-radius: 4px;
+  border-radius: 9px;
   border: none;
   cursor: pointer;
   letter-spacing: 1px;
@@ -59,7 +59,7 @@ p {
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #861718;
+  background-color: #771416;
 }
 
 .btn--outline:link,
@@ -85,8 +85,8 @@ p {
 
 .content-container {
   max-width: 120rem;
-  padding: 0 3.2rem;
   margin: 0 auto;
+  /* padding: 0 3.2rem; */
 }
 
 .grid {
