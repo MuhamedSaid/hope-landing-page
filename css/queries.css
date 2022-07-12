@@ -100,42 +100,6 @@
   .content-container {
     max-width: 90rem;
   }
-}
-
-/***************************/
-/* BELOW 768px (Smaller Tablets)*/
-/***************************/
-
-@media (max-width: 48em) {
-  html {
-    font-size: 40.625%;
-  }
-
-  .content-container {
-    padding: 0 3.2rem;
-  }
-
-  .main-nav {
-    flex-direction: column;
-    gap: 4.8rem;
-  }
-
-  .main-nav-list.second-nav-list {
-    gap: 4.8rem;
-  }
-
-  .main-nav-link.donate-nav {
-    border: none;
-  }
-
-  .main-nav-link.donate-nav:hover,
-  .main-nav-link.donate-nav:active {
-    border: none;
-  }
-
-  .section-who-grid .content p {
-    font-size: 1.8rem;
-  }
 
   /* MOBILE NAVIGATION */
 
@@ -154,6 +118,9 @@
     transform: translateX(100%);
 
     display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+
     justify-content: center;
     align-items: center;
     transition: all 0.5s ease-in;
@@ -163,6 +130,19 @@
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+  }
+
+  .main-nav-list.second-nav-list {
+    gap: 4.8rem;
+  }
+
+  .main-nav-link.donate-nav {
+    border: none;
+  }
+
+  .main-nav-link.donate-nav:hover,
+  .main-nav-link.donate-nav:active {
+    border: none;
   }
 
   .nav-open .main-nav {
@@ -195,12 +175,37 @@
   .main-nav-link.nav-cta:visited {
     font-size: 2.4rem;
   }
+}
+
+/***************************/
+/* BELOW 768px (Smaller Tablets)*/
+/***************************/
+
+@media (max-width: 48em) {
+  html {
+    font-size: 40.625%;
+  }
+
+  .content-container {
+    padding: 0 3.2rem;
+  }
+
+  .section-who-grid .content p {
+    font-size: 1.8rem;
+  }
+
+  /* SECTION Products modified */
+
+  .product-details {
+    text-align: center;
+  }
 
   /* SECTION Experienced modified */
   .experienced-container {
     width: 80%;
   }
 
+  /* FOOTER modified */
   .footer .grid {
     padding: 3.2rem 0;
     row-gap: 3rem;
@@ -340,6 +345,22 @@
     padding-bottom: 66%;
   }
 
+  /* SECTION Products modified */
+  .product-cards-container {
+    width: 70%;
+    grid-template-columns: 1fr;
+    row-gap: 6.8rem;
+    /* justify-content: center; */
+  }
+
+  .product-details {
+    text-align: center;
+  }
+
+  .product-cards-container img {
+    display: block;
+    margin: 0 auto;
+  }
   /* SECTION Features modified */
   .section-features .grid-pattern--2 {
     grid-template-columns: 1fr;
