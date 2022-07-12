@@ -91,7 +91,14 @@
   html {
     font-size: 50%;
   }
+  /* SECTION Products modified */
+  .product-cards-container {
+    column-gap: 4.8rem;
+  }
 
+  .product-details {
+    padding: 1.6rem;
+  }
   /* SECTION Experienced modified */
   .experienced-container {
     width: 70%;
@@ -195,6 +202,10 @@
   }
 
   /* SECTION Products modified */
+
+  .product-cards-container {
+    column-gap: 3.2rem;
+  }
 
   .product-details {
     text-align: center;
