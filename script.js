@@ -1,3 +1,192 @@
+// List Of Registered Rescuers
+// Printing the 150 names
+const printStudentNames = function () {
+  const firstRowNames = document.querySelector('#first-row-names');
+  const secondRowNames = document.querySelector('#second-row-names');
+  const thirdRowNames = document.querySelector('#third-row-names');
+
+  const names = [
+    'Moatasm Khairy',
+    'Mohamed Ahmed',
+    'Mohamed Khairat',
+    'Kareem Ehab',
+    'Ahmed Atef',
+    'Ahmed Hakim',
+    'Yousef Abdelrahman',
+    'Abdallah yehia',
+    'Abanoub yehia',
+    'christien Awaad',
+    'Mikle Atef',
+    'Youstina Hefzy',
+    'Samir Ayman',
+    'Kenzy Atef',
+    'Yousef Mamdouh',
+    'Ahmed Ashraf',
+    'Seif Hesham',
+    'Kareem Mohamed',
+    'Anas Rashwan',
+    'Kareem Abdelazez',
+    'Marwan Mohamed',
+    'Farah Hesham',
+    'Mariem Mohamed',
+    'Asmaa Galal',
+    'Amir Mahmoud',
+    'Mohamed Samir',
+    'Shreen Reda',
+    'Georgina tawaf',
+    'Amina Khalil',
+    'Mena Mostafa',
+    'Aya Ahmed',
+    'Karma sameh',
+    'Merna Mostafa',
+    'Salma Ahmed',
+    'Soha Emad',
+    'Malak Mohamed',
+    'Jana Hazem',
+    'Julia Sameh',
+    'Malek Mohamed',
+    'Gamal Mohamed',
+    'Alaa Emad',
+    'Fatma Mostafa',
+    'Haleem Ahmed',
+    'Ehab Noor',
+    'Kareem mostafa',
+    'kareem mohamed',
+    'kareem alaa',
+    'kareem sherif',
+    'hassan sherif',
+    'hassan mohamed',
+    'hussiem mohamed',
+    'samah mohamed',
+    'mohamed yehia',
+    'mohamed sameh',
+    'abdallah mohamed',
+    'abdallah ahmed',
+    'mohamed hamdy',
+    'hazem khaled',
+    'hassan ismael',
+    'eslam mohamed',
+    'abdallah rashwan',
+    'abdelrhman rashwan',
+    'aycel adel',
+    'aycel mohamed',
+    'aycel khaled',
+    'rana khaled',
+    'mohamed farouk',
+    'mohamed fouad',
+    'amr sherif',
+    'amr hussam',
+    'amr khaled',
+    'ahmed khaled',
+    'hassan atef',
+    'sherif waled',
+    'mostafa mohamed',
+    'omar mokhtar',
+    'omar ehab',
+    'omar mohamed',
+    'omar hazem',
+    'omar khaled',
+    'ramy ahmed',
+    'adham ahmad',
+    'salma sherif',
+    'jasmine rashed',
+    'eman hafez',
+    'alaa hamed',
+    'lara emad',
+    'rana bassiony',
+    'heba emad',
+    'juliana osama',
+    'lareni mohamed',
+    'hader hamed',
+    'rama wael',
+    'malak mohy',
+    'rodina azab',
+    'abdelrahman youssef',
+    'nada magdy',
+    'nada ayman',
+    'aya kassab',
+    'sama khaled',
+    'mariam bassem',
+    'rawan mazen',
+    'mariam alaa',
+    'laila hamza',
+    'mariam ramdan',
+    'sagda soliman',
+    'rawan maged',
+    'haneen mohamed',
+    'shahd abdelrahman',
+    'renad ahmed',
+    'noura mohamed',
+    'farah hafez',
+    'hania abdelhamid',
+    'haya abdelsameea',
+    'safa mahmoud',
+    'shaimaa khaled',
+    'mayar khaled',
+    'merna ashraf',
+    'mehad magdy',
+    'eslam bahgat',
+    'ebram atef',
+    'abdelrahman masood',
+    'gerges nasser',
+    'ziad ashraf',
+    'ayman nasser',
+    'nour mohamed',
+    'youssef ali',
+    'ali gamal',
+    'mostafa mekawy',
+    'mostafa hossam',
+    'youssef hossam',
+    'hazem hesham',
+    'omar taha',
+    'omar talaat',
+    'omar hussam',
+    'omar ahmed',
+    'bavly ehab',
+    'sayed hesham',
+    'mohamed mosher',
+    'saher hassan',
+    'maher fayez',
+    'mahmoud taha',
+    'ahmed adel',
+    'ahmed al adawy',
+    'sayed tamer',
+    'youssef farid',
+    'hatem ahmed',
+    'mahmoud halaby',
+    'khaled emam',
+    'martin hany'
+  ];
+
+  const addName = function (name) {
+    let p = document.createElement('p');
+    p.textContent = name;
+    return p;
+  };
+
+  const appendingNames = function () {
+    for (let i = 0; i < 50; i++) {
+      const name = addName(names[i]);
+      firstRowNames.appendChild(name);
+    }
+    for (let i = 50; i < 100; i++) {
+      const name = addName(names[i]);
+      secondRowNames.appendChild(name);
+    }
+    for (let i = 100; i < 150; i++) {
+      const name = addName(names[i]);
+      thirdRowNames.appendChild(name);
+    }
+  };
+
+  const init = function () {
+    appendingNames();
+  };
+
+  init();
+};
+printStudentNames();
+
 ///////////////////////////////////////////
 // Slider
 const slider = function () {

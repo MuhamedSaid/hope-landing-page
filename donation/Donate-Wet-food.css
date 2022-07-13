@@ -4,11 +4,13 @@
 
 .u-section-1 .u-btn-1 {
   background-image: none;
+  font-size: 1.25rem;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   margin: 30px auto 0 50px;
 }
 
 .u-section-1 .u-image-1 {
-  width: 192px;
+  width: 288px;
   height: 192px;
   margin: -29px auto 0;
 }
@@ -40,7 +42,6 @@
 }
 
 .u-section-1 .u-btn-2 {
-  background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
 }
 

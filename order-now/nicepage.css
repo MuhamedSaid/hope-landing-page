@@ -37683,25 +37683,19 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 140px;
 }
 
-.u-header .u-image-1 {
-  width: 127px;
-  height: 39px;
-  margin: 51px auto 50px 71px;
+.u-header .u-icon-1 {
+  width: 278px;
+  height: 79px;
+  margin: 30px auto 29px 38px;
+  padding: 0;
 }
 @media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    width: 94px;
-    height: 28px;
-    margin-left: 34px;
+  .u-header .u-icon-1 {
+    width: 278px;
+    height: 79px;
   }
 }
-@media (max-width: 991px) {
-  .u-header .u-image-1 {
-    width: 94px;
-    height: 28px;
-    margin-left: 34px;
-  }
-}
+
 
 
 .u-footer .u-sheet-1 {

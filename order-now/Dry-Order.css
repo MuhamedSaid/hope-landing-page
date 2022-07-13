@@ -4,19 +4,21 @@
 
 .u-section-1 .u-btn-1 {
   background-image: none;
+  font-weight: 700;
+  font-size: 1.25rem;
   margin: 30px auto 0 50px;
 }
 
 .u-section-1 .u-image-1 {
-  width: 192px;
-  height: 191px;
-  margin: -29px auto 0;
+  width: 318px;
+  height: 233px;
+  margin: -45px auto 0;
 }
 
 .u-section-1 .u-form-1 {
   height: 761px;
   width: 570px;
-  margin: 0 auto 60px;
+  margin: -26px auto 60px;
 }
 
 .u-section-1 .u-form-group-2 {
@@ -42,6 +44,8 @@
 .u-section-1 .u-btn-2 {
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 @media (max-width: 1199px) {

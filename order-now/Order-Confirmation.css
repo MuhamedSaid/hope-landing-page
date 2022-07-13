@@ -4,13 +4,15 @@
 
 .u-section-1 .u-btn-1 {
   background-image: none;
-  margin: 20px auto 0 61px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 23px auto 0 41px;
 }
 
 .u-section-1 .u-text-1 {
   font-size: 3rem;
   width: 827px;
-  margin: 88px auto 0;
+  margin: 85px auto 0;
 }
 
 .u-section-1 .u-image-1 {
