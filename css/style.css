@@ -343,6 +343,33 @@
 /* *********** SECTION - Products *********** */
 .section-products {
   background-color: #fdf1f1;
+  padding-top: 6.4rem;
+}
+
+.ordered-container {
+  display: flex;
+  justify-content: center;
+}
+.ordered {
+  /* color: #fff; */
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 9px;
+  padding: 0.8rem 1.6rem;
+  margin-right: 0.4rem;
+  margin-top: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.ordered span {
+  color: #771416;
+  font-weight: 800;
+  /* background-color: #fff;
+  border-radius: 100px;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.4rem; */
 }
 
 .section-products .products-heading {
@@ -701,7 +728,7 @@
   align-content: center;
 }
 
-.shelters-shelters {
+.shelters-logo {
   height: 15rem;
   padding: 0.8rem 0;
   border: 0.4rem solid #f2f2f2;
@@ -719,7 +746,7 @@
 }
 .featured-in-container {
   display: grid;
-  grid-template-columns: repeat(2, 23rem);
+  grid-template-columns: repeat(3, 23rem);
   column-gap: 2.4rem;
   row-gap: 2.4rem;
   align-items: center;
@@ -730,13 +757,15 @@
 .featured-in-logo {
   height: 15rem;
   padding: 0.8rem 0;
-  border: 0.4rem solid #f2f2f2;
+  border: 4px solid #f2f2f2;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .featured-in-logo img {
-  height: 100%;
+  max-height: 85%;
+  max-width: 85%;
 }
 
 /* *********** SECTION -- CTA *********** */
