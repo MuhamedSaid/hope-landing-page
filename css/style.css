@@ -371,6 +371,8 @@
 
 .product-card {
   background-color: #fff;
+  box-shadow: 0 3.2rem 3.2rem rgba(0, 0, 0, 0.05);
+
   border-radius: 9px;
 }
 
@@ -651,6 +653,13 @@
   border-bottom: 1px solid #eee;
   background-image: linear-gradient(to right bottom, #ffffff, #fdf1f1);
 }
+
+.section-names .section-header p {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #771416;
+}
+
 .section-names h2 {
   margin-bottom: 4.8rem;
 }
@@ -665,6 +674,43 @@
 .name-group p {
   text-transform: capitalize;
   font-size: 1.4rem;
+}
+
+/* *********** SECTION -- Featured in *********** */
+.section-shelters {
+  background-image: linear-gradient(
+    to top,
+    #fdf2f2,
+    #fdf5f7,
+    #fdf9fb,
+    #fdfcfe,
+    #ffffff
+  );
+}
+
+.section-shelters h2 {
+  margin-bottom: 4.8rem;
+}
+.shelters-container {
+  display: grid;
+  grid-template-columns: repeat(3, 23rem);
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.shelters-shelters {
+  height: 15rem;
+  padding: 0.8rem 0;
+  border: 0.4rem solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-shelters img {
+  height: 100%;
 }
 
 /* *********** SECTION -- Featured in *********** */
