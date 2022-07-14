@@ -289,11 +289,11 @@
   .break-line::before {
     display: none;
   }
-  /************/
 
-  .section-wt-is-hope p {
-    font-size: 2rem;
+  .section-wt-is-hope .left {
   }
+
+  /************/
 
   .section-who-grid .content p {
     font-size: 1.8rem;
@@ -348,20 +348,21 @@
 
   .section-wt-is-hope .content-container .grid-pattern--1 .left {
     grid-row: 2;
+    margin-top: 4.8rem;
   }
 
   .section-wt-is-hope .content-container .grid-pattern--1 .left img {
-    max-width: 50%;
+    width: 50%;
   }
 
   .section-wt-is-hope .grid-pattern--1 .left::before {
-    width: 70%;
-    padding-bottom: 76%;
+    width: 58%;
+    padding-bottom: 54%;
   }
 
   .section-wt-is-hope .grid-pattern--1 .left::after {
-    width: 60%;
-    padding-bottom: 66%;
+    width: 50%;
+    padding-bottom: 44%;
   }
 
   /* SECTION Products modified */
@@ -418,6 +419,20 @@
   /* SECTION Experienced modified */
   .experienced-container {
     width: 90%;
+  }
+
+  /* SECTION Shelters modified */
+  .shelters-container {
+    grid-template-columns: 1fr;
+  }
+
+  .shelters-logo {
+    border: none;
+  }
+
+  .shelters-logo img {
+    border: 4px solid #f2f2f2;
+    padding: 1.2rem 6.4rem;
   }
 
   /* SECTION Featured in modified */
