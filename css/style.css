@@ -260,7 +260,7 @@
   display: flex;
   gap: 0.8rem;
   font-weight: 500;
-  margin-top: 3.2rem;
+  margin-top: 3.2remت;
 }
 
 .hero-btns-container {
@@ -678,8 +678,21 @@
 
 /* *********** SECTION - names *********** */
 .section-names {
-  border-bottom: 1px solid #eee;
-  background-image: linear-gradient(to right bottom, #ffffff, #fdf1f1);
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #fdfcfe,
+    #fdfafd,
+    #fdf7fa,
+    #fdf4f7,
+    #fdf4f7,
+    #fdf4f7,
+    #fdf4f7,
+    #fdf7fa,
+    #fdfafd,
+    #fdfcfe,
+    #ffffff
+  );
 }
 
 .section-names .section-header p {
@@ -706,14 +719,15 @@
 
 /* *********** SECTION -- Featured in *********** */
 .section-shelters {
-  background-image: linear-gradient(
+  background-color: #fdf2f2;
+  /* background-image: linear-gradient(
     to top,
     #fdf2f2,
     #fdf5f7,
     #fdf9fb,
     #fdfcfe,
     #ffffff
-  );
+  ); */
 }
 
 .section-shelters h2 {
